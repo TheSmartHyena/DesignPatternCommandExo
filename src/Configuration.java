@@ -1,4 +1,4 @@
 public class Configuration {
-    public static int heatIncreaseDecreaseStepValue = 1;
+    public static int HEAT_STEP_VALUE = 1;
 
 }

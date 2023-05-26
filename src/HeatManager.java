@@ -11,11 +11,11 @@ public class HeatManager {
     }
 
     public void increaseTemperature() {
-        this.temperature += Configuration.heatIncreaseDecreaseStepValue;
+        this.temperature += Configuration.HEAT_STEP_VALUE;
     }
 
     public void decreaseTemperature() {
-        this.temperature -= Configuration.heatIncreaseDecreaseStepValue;
+        this.temperature -= Configuration.HEAT_STEP_VALUE;
     }
 
     private String buildCurrentHeatOn() {

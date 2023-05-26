@@ -14,8 +14,8 @@ public class Main {
         Invoker switchGeneral = new Invoker();
 
         // Config des invoker controller
-        telecommande.addCommand("increase", increase);
-        telecommande.addCommand("decrease", decrease);
+        telecommande.addCommand("increase1", increase);
+        telecommande.addCommand("decrease1", decrease);
 
         switchGeneral.addCommand("off", off);
         switchGeneral.addCommand("on", on);
